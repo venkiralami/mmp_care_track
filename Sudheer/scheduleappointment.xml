@@ -1,0 +1,10 @@
+<suite name="Suite" verbose="5">
+  <listeners>
+    <listener class-name="org.iitwf.hc.lib.ListenerUtility"/>
+  </listeners>
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="org.iitwf.healthcare.mmp.ScheduleAppointmentTests"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
